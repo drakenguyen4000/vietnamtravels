@@ -14,6 +14,13 @@ $(document).ready(function() {
     );
   });
 
+  $(".js--scroll-to-city-guide").click(function() {
+    $("html, body").animate(
+      { scrollTop: $(".js--sections-city-guide").offset().top },
+      1000
+    );
+  });
+
   $(".js--scroll-to-contact-us").click(function() {
     $("html, body").animate(
       { scrollTop: $(".js--sections-contact-us").offset().top },
